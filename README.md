@@ -1,9 +1,13 @@
-# Collaborative Filtering-Based Recommendation System with Streamlit UI
+<img width="1143" height="243" alt="image" src="https://github.com/user-attachments/assets/226fa48f-c1d1-4a7c-8bb1-7ed853e014a4" />
+
 
 ## Project Overview
 
 This project implements a **personalized recommendation system** using collaborative filtering techniques and provides an interactive **Streamlit web application** for generating recommendations and performing fuzzy searches.  
 The system integrates explicit user ratings with implicit bookmarks, applies **matrix factorization (truncated SVD)** to learn latent factors, and enables both recommendation and search functionalities with clickable external links for more details.
+
+<img width="1107" height="570" alt="image" src="https://github.com/user-attachments/assets/9810236c-d1f1-406d-96b3-6d99a487729a" />
+
 
 ## Objectives
 
@@ -22,7 +26,10 @@ The system integrates explicit user ratings with implicit bookmarks, applies **m
 - numpy  
 - scipy  
 - RapidFuzz  
-- scikit-learn (cosine similarity)  
+- scikit-learn (cosine similarity)
+
+<img width="2253" height="1270" alt="image" src="https://github.com/user-attachments/assets/3ef81681-edc8-47f8-a749-d31066db7950" />
+
 
 ## Project Structure
 
@@ -44,7 +51,10 @@ content-recommender-collaborative-filtering/
 - **Matrix Factorization:** Computes latent features via truncated SVD for collaborative filtering  
 - **Recommendations:** Suggests similar items for a given user using cosine similarity of latent factors  
 - **Fuzzy Search:** Uses RapidFuzz for approximate search on item titles and authors  
-- **Clickable Links:** Provides external links to detailed pages (e.g., Goodreads) in a new browser tab  
+- **Clickable Links:** Provides external links to detailed pages (e.g., Goodreads) in a new browser tab
+
+<img width="1319" height="724" alt="image" src="https://github.com/user-attachments/assets/446e5ef4-0dd1-460c-ae9f-d9f60e50125e" />
+
 
 ## How It Works
 
